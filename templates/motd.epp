@@ -1,1 +1,1 @@
-<%= "%{heira('message')}" %>
+<%= scope.function_hiera(['message']) %>
