@@ -1,2 +1,3 @@
 <%= hiera('message') %>
-<%= $facts['os']['family'] %>
+<%= "The os family is:  $facts['os']['family']" %>
+<%= $facts['hello'] %>
